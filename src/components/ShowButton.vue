@@ -1,5 +1,6 @@
 <template>
   <div>
+    <HelloWorld/>
     <h1>{{ msg }}</h1>
     <el-row>
       <el-button>默认按钮</el-button>
@@ -40,8 +41,10 @@
 </template>
 
 <script>
+import HelloWorld from './HelloWorld'
 export default {
   name: 'ShowButton',
+  components: {HelloWorld},
   data () {
     return {
       msg: 'Welcome to ShowButton'
