@@ -1,6 +1,5 @@
 <template>
-  <div>
-    <HelloWorld/>
+  <div class="showButton" style="height: 1000px;">
     <h1>{{ msg }}</h1>
     <el-row>
       <el-button>默认按钮</el-button>
@@ -47,7 +46,7 @@ export default {
   components: {HelloWorld},
   data () {
     return {
-      msg: 'Welcome to ShowButton'
+      msg: 'ShowButton组件：Welcome to ShowButton'
     }
   }
 }
